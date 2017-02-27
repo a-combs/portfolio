@@ -1,0 +1,74 @@
+h1 {
+	font-size: 14px;
+	color: ;
+}
+
+#pitt {
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+	border: 1px solid grey;
+	border-radius: 10px;
+
+}
+.submit_button {
+	padding: .75em;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #285b4e;
+	margin: 5px 0px 0px 0px;
+	font-size: .85em;
+	width: 100px;
+	color: white;
+}
+
+header {
+	position: fixed;
+	padding: 1em;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #3a5a8e;
+	border-bottom: 1px solid #666;
+
+	/* flexbox stuff */
+	display: flex;
+	align-items: center;
+
+}
+footer {
+	position: fixed;
+	padding: .5em;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #CCC;
+	border-top: 1px solid #666;
+}
+
+span.logo {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+span.foot {
+	font-size: 10px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: 2em;
+}
+
+nav li {
+	display: inline-block;
+	background-color: #CCC;
+	padding: .75em;
+	border-radius: 10px;
+}
+
+nav li a {
+	color: #444;
+	text-decoration: none;
+}

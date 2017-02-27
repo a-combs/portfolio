@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ERB Stuff</title>
+	<!-- By default Sinatra looks in 'public' folder for links -->
+	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+	<!-- <script src="/scripts/scripts.js"></script> -->
+</head>
+<body>
+	<header>
+		<span class="logo">Street Educated Shop</span>
+		<nav>
+				<li><a href="/" title="Home Page">Home</a></li>
+				<li><a href="/contact" title="Contact">Contact Me</a></li>
+		</nav>
+	</header>
+	<br><br><br><br>
+
+	<%= yield %>
+	<br>
+	<%= params.inspect %>
+	<br>
+	<br>
+	<footer>
+		<span class="foot">Somewhere, Austin, TX 78739 • Phone: 512-nnn-nnnn</span>
+	</footer>
+
+</body>
+</html>
